@@ -1,0 +1,26 @@
+# Python environment
+.venv/
+
+# Generated Python files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment variables and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Terraform downloaded providers and modules
+**/.terraform/
+
+# Terraform state and saved deployment plans
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# macOS files
+.DS_Store
